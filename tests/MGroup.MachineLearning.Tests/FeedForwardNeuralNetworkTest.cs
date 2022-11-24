@@ -6,7 +6,7 @@ using MGroup.MachineLearning.Preprocessing;
 
 namespace MGroup.MachineLearning.Tests
 {
-    public class FeedForwardNeuralNetworkTest
+	public class FeedForwardNeuralNetworkTest
     {
         //learning the polynomial : f(x)=0.5x^3+2x^2+x in x -> [-3,0.5], f'(x)=1.5x^2+4x+1
         static double[,] trainX = { { -3 }, { -2.90000000000000 }, { -2.80000000000000 }, { -2.70000000000000 }, { -2.60000000000000 }, { -2.50000000000000 }, { -2.40000000000000 }, { -2.30000000000000 }, { -2.20000000000000 }, { -2.10000000000000 }, { -2 }, { -1.90000000000000 }, { -1.80000000000000 }, { -1.70000000000000 }, { -1.60000000000000 }, { -1.50000000000000 }, { -1.40000000000000 }, { -1.30000000000000 }, { -1.20000000000000 }, { -1.10000000000000 },
